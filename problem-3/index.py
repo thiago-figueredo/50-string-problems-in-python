@@ -12,6 +12,9 @@
 # 6) Else, if roman_table[current_char] is in the roman_table, add it to int_value and increment index i by 1.
 # 7) Then, after the loop return int_value.
 
+# Space Complexity: O(1)
+# Time Complexity: O(n)
+
 def romanToInt(roman_number: str) -> int:
   roman_table = {
     "I": 1,
