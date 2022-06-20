@@ -18,6 +18,9 @@ from typing import List
 # 11) If not, append first element of value to longest_common_prefix;
 # 12) Return longest_common_prefix;
 
+# Space Complexity -> O(n)
+# Time Complexity -> O(n^2)
+
 def longestCommonPrefix(strs: List[str]) -> str:
   longest_common_prefix = ""
   hash_map = {}
